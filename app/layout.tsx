@@ -7,8 +7,9 @@ const rubik = Rubik({ subsets: ['latin'] });
 
 
 export const metadata: Metadata = {
-  title: "EquipamentWise",
-  description: "EquipamentEWise is a modern and efficient equipment lending system designed to simplify the management of borrowed devices, tools, and resources. Whether for universities, research labs, coworking spaces, or businesses, our platform ensures smooth and transparent tracking of equipment loans.",
+  title: "BookWise",
+  description:
+    "BookWise is a book borrowing university library management solution.",
 };
 
 export default function RootLayout({
