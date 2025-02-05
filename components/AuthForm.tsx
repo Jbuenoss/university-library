@@ -72,7 +72,7 @@ export default function AuthForm<T extends FieldValues>({ type, schema, defaultV
                                     </FormLabel>
                                     <FormControl>
                                         {field.name === "universityCard" ? (
-                                            <ImageUpload
+                                            <ImageUpload onFileChange={field.onChange}
                                             />
                                         ) : (
                                             <Input
