@@ -14,7 +14,7 @@ const BookCard = ({
 }: Book) => (
     <li className={cn(isLoanedBook && "sm:w-52 w-full")}>
         <Link
-            href={`/books/${id}`}
+            href="#"
             className={cn(isLoanedBook && "w-full flex flex-col items-center")}
         >
             <BookCover coverColor={color} coverImage={cover} />
